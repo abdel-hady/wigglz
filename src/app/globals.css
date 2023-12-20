@@ -1,0 +1,284 @@
+.menu_bars {
+  fill: none;
+  stroke: #533828;
+}
+
+.menu_close {
+  fill: none;
+  stroke: #533828;
+}
+
+.section_family .bowl_animation_container .bowl_mixed {
+  left: 0;
+  right: auto;
+  border-right: 3px solid white;
+  border-left: none;
+  background-position: top left;
+}
+
+.btn-xl {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.75rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 1200px) {
+  .start_kit_container .d-xl-block {
+    padding: 3rem 0;
+  }
+}
+
+.one_category_container {
+  position: relative;
+  width: 100%;
+
+}
+
+.one_category_container::before {
+  display: block;
+  padding-top: 100%;
+  content: "";
+}
+
+.one_category_container>a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff5e9;
+  color: var(--custom-thirdary);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.one_category_container>a:hover {
+  color: var(--custom_rose);
+}
+
+.one_video_testimonial {
+  cursor: pointer;
+}
+
+.one_video_testimonial .orange_play_icon {
+  transition: opacity 0.3s;
+}
+
+.one_video_testimonial:hover .orange_play_icon {
+  opacity: 1 !important;
+}
+
+#videoTestimonialModal .modal-dialog {
+  width: 95%;
+  max-width: 1500px;
+  margin: 30px auto;
+}
+
+@media (min-width: 1200px) {
+  #videoTestimonialModal .modal-dialog {
+    width: min(75vw, 85vh)
+  }
+}
+
+#videoTestimonialModal .modal-body {
+  position: relative;
+  padding: 0;
+}
+
+#videoTestimonialModal .close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
+.section_footer_1 .search_box_container,
+.section_footer_1 .subscription_form input {
+  max-width: initial !important;
+}
+
+#footerAccordion .card {
+  border: none;
+  border-bottom: 1px solid #4c3629;
+  background-color: transparent;
+}
+
+#footerAccordion .card:last-child {
+  border-bottom: none
+}
+
+#footerAccordion .card-header {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #4c3629;
+}
+
+#footerAccordion .card-header .btn-link {
+  color: #4c3629;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 0;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  position: relative;
+
+}
+
+#footerAccordion .card-header .btn-link:hover {
+  color: #ef8122
+}
+
+#footerAccordion .card-header .btn-link:focus {
+  box-shadow: none;
+}
+
+#footerAccordion .card-header .btn-link .fa {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+  transition: 0.5s;
+  font-size: 1.3rem;
+  transform: rotate(0deg);
+}
+
+#footerAccordion .card-header .btn-link:not(.collapsed) {
+  color: #ef8122
+}
+
+#footerAccordion .card-header .btn-link.collapsed .fa {
+  transform: rotate(180deg)
+}
+
+#footerAccordion li a {
+  padding: 3px 0;
+  display: inline-block;
+}
+
+.whatsapp_button {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.whatsapp_button:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+.section_faq .accordion .card:last-child{
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.scale-on-hover:hover{
+  transform: scale(1.05);
+  transition: transform 400ms;
+}
+.p-tabview-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-unselectable-text{
+  padding: 0 1rem;
+}
+.p-unselectable-text img{
+  opacity:0.5;
+}
+.p-tabview-panels{
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.p-unselectable-text.p-tabview-selected img{
+  opacity: 1;
+  border: 4px solid rgb(78, 132, 163);
+}
+.mt-14rem{
+  margin-top: 14rem !important;
+}
+.w-60{
+  width:60%;
+}
+.ml-4rem{
+  margin-left: 4rem;
+}
+.f-20{
+  font-size: 20px;
+}
+.fw-500{
+  font-weight: 500;
+}
+.checkout{
+  max-width:700px;
+  margin:auto;
+}
+.p-inputnumber{
+  width: 100%;
+}
+.error-text{
+  color:#dc3545;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
+}
+textarea{
+  overflow: hidden;
+}
+.checkout .p-tabview-nav-container {
+  display:none
+}
+.p-datepicker-calendar th{
+  text-align:center;
+}
+@media (max-width:992px ) {
+  .ml-2rem{
+    margin-left:2rem
+  }
+  .f-11{
+    font-size:11px
+  }
+  .w-75{
+    width:75%;
+  }
+  .responsive-min-height{
+    min-height: 365px;
+  }
+  .mt-1rem{
+    margin-top:1rem
+  }
+  .mt-10rem{
+    margin-top:10rem;
+  }
+}
+@media (min-width:1200px ) {
+  .responsive-min-height{
+    min-height: 500px;
+  }
+}
+@media (min-width:1400px ) {
+  .responsive-min-height{
+    min-height: 550px;
+  }
+}
+@media (min-width:1600px ) {
+  .responsive-min-height{
+    min-height: 600px;
+  }
+}
+@media (min-width:1920px ) {
+  .responsive-min-height{
+    min-height: 700px;
+  }
+}
+

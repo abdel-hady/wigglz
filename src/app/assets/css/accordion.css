@@ -1,0 +1,22 @@
+.custom_accordion_card{
+    border:0;
+    background-color:#fff5e9;
+    padding:0 1em;
+    margin:0.5em 0;
+}
+.p-accordion-header-text{
+    color:rgb(78, 132, 163)
+}
+.p-icon{
+    color:rgb(78, 132, 163);
+}
+.p-toggleable-content.custom_accordion_card{
+    background-color: white;
+}
+.p-toggleable-content.bg-white{
+    background-color: white;
+}
+
+.p-toggleable-content.bg-unset{
+    background-color:#fff5e9;
+}
